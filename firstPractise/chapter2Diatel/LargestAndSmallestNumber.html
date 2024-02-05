@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>User Name</td>
+        <td><input type="text" id="txtUserName" /></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="btnSubmit" id="btnSubmit" name="btnSubmit" value="btnSubmit" />
+        </td>
+        <tr>
+<th colspan="2">
+
+<?php 
+
+if(isset($_REQUEST['btnSubmit'])){
+    echo "you clicked on the submit button";
+}
+
+</th>
+
+        </tr>
+      </tr>
+    </table>
+  </body>
+</html>
